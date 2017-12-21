@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  JHLockDemo
+//
+//  Created by Jiang Hao on 2017/12/21.
+//  Copyright © 2017年 Jiang Hao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <Foundation/Foundation.h>
+#import "CMColor.h"
+#define WEAKSELF    typeof(self) __weak weakSelf = self;
+#define kColor(a)      [UIColor colorWithRGBHexString:a]
+typedef NS_ENUM(NSUInteger, JYGestureLockType) {
+    JYGestureLockTypeSetup,//设置
+    JYGestureLockTypeVerify,//验证
+    JYGestureLockTypeModify//修改
+    
+};
+
+
+
+#endif

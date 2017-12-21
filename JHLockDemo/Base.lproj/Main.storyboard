@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bOx-FL-UKQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="JHViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tr7-Bu-Is1">
+                                <rect key="frame" x="154.5" y="124" width="66" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="手势设置">
+                                    <color key="titleColor" red="0.99607843139999996" green="0.70196078429999997" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="gestureSetup" destination="BYZ-38-t0r" eventType="touchDown" id="3ox-be-XnF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IG3-7e-PBl">
+                                <rect key="frame" x="152.5" y="216" width="70" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="手势验证">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.53333333329999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="gestureVertify" destination="BYZ-38-t0r" eventType="touchDown" id="5IZ-b3-gQq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0V-fB-o20">
+                                <rect key="frame" x="152.5" y="309" width="70" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="手势修改">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="modity" destination="BYZ-38-t0r" eventType="touchDown" id="PiW-ju-pRg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IG3-7e-PBl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G1B-rU-yc8"/>
+                            <constraint firstItem="i0V-fB-o20" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ocv-vj-eSc"/>
+                            <constraint firstItem="Tr7-Bu-Is1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jCV-XK-N0c"/>
+                            <constraint firstItem="Tr7-Bu-Is1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="jbk-VA-vHR"/>
+                            <constraint firstItem="i0V-fB-o20" firstAttribute="top" secondItem="IG3-7e-PBl" secondAttribute="bottom" constant="60" id="n1O-1o-SDA"/>
+                            <constraint firstItem="IG3-7e-PBl" firstAttribute="top" secondItem="Tr7-Bu-Is1" secondAttribute="bottom" constant="60" id="oPx-Ig-2uK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vjx-yh-TuK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="134"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sgJ-mt-B3X">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bOx-FL-UKQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lsx-7S-Zgd">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.80487614610000002" blue="0.94013608049999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="jBB-gN-cP4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hbe-HF-CUy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="263" y="134"/>
+        </scene>
+    </scenes>
+</document>

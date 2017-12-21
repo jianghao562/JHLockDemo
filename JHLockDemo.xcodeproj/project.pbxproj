@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1ECAEA1FEB896E002B26EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECAE91FEB896E002B26EF /* AppDelegate.m */; };
+		CD1ECAF01FEB896E002B26EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1ECAEE1FEB896E002B26EF /* Main.storyboard */; };
+		CD1ECAF21FEB896E002B26EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1ECAF11FEB896E002B26EF /* Assets.xcassets */; };
+		CD1ECAF51FEB896E002B26EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1ECAF31FEB896E002B26EF /* LaunchScreen.storyboard */; };
+		CD1ECAF81FEB896E002B26EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECAF71FEB896E002B26EF /* main.m */; };
+		CD1ECB0E1FEB8A6E002B26EF /* CoreArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECB001FEB8A6E002B26EF /* CoreArchive.m */; };
+		CD1ECB0F1FEB8A6E002B26EF /* CoreLockConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECB021FEB8A6E002B26EF /* CoreLockConst.m */; };
+		CD1ECB101FEB8A6E002B26EF /* JYGestureController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECB041FEB8A6E002B26EF /* JYGestureController.m */; };
+		CD1ECB111FEB8A6E002B26EF /* JYGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECB061FEB8A6E002B26EF /* JYGestureView.m */; };
+		CD1ECB121FEB8A6E002B26EF /* JYGestureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1ECB071FEB8A6E002B26EF /* JYGestureView.xib */; };
+		CD1ECB131FEB8A6E002B26EF /* JYLockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECB091FEB8A6E002B26EF /* JYLockButton.m */; };
+		CD1ECB141FEB8A6E002B26EF /* JYLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECB0B1FEB8A6E002B26EF /* JYLockView.m */; };
+		CD1ECB151FEB8A6E002B26EF /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECB0D1FEB8A6E002B26EF /* NSString+File.m */; };
+		CD1ECB191FEB9B34002B26EF /* CMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECB181FEB9B34002B26EF /* CMColor.m */; };
+		CD1ECB1E1FEBA445002B26EF /* JHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECB1D1FEBA445002B26EF /* JHViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD1ECAE51FEB896E002B26EF /* JHLockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHLockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1ECAE81FEB896E002B26EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD1ECAE91FEB896E002B26EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD1ECAEF1FEB896E002B26EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1ECAF11FEB896E002B26EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1ECAF41FEB896E002B26EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD1ECAF61FEB896E002B26EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1ECAF71FEB896E002B26EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1ECAFF1FEB8A6E002B26EF /* CoreArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreArchive.h; sourceTree = "<group>"; };
+		CD1ECB001FEB8A6E002B26EF /* CoreArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreArchive.m; sourceTree = "<group>"; };
+		CD1ECB011FEB8A6E002B26EF /* CoreLockConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLockConst.h; sourceTree = "<group>"; };
+		CD1ECB021FEB8A6E002B26EF /* CoreLockConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLockConst.m; sourceTree = "<group>"; };
+		CD1ECB031FEB8A6E002B26EF /* JYGestureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGestureController.h; sourceTree = "<group>"; };
+		CD1ECB041FEB8A6E002B26EF /* JYGestureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGestureController.m; sourceTree = "<group>"; };
+		CD1ECB051FEB8A6E002B26EF /* JYGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGestureView.h; sourceTree = "<group>"; };
+		CD1ECB061FEB8A6E002B26EF /* JYGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGestureView.m; sourceTree = "<group>"; };
+		CD1ECB071FEB8A6E002B26EF /* JYGestureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYGestureView.xib; sourceTree = "<group>"; };
+		CD1ECB081FEB8A6E002B26EF /* JYLockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLockButton.h; sourceTree = "<group>"; };
+		CD1ECB091FEB8A6E002B26EF /* JYLockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLockButton.m; sourceTree = "<group>"; };
+		CD1ECB0A1FEB8A6E002B26EF /* JYLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLockView.h; sourceTree = "<group>"; };
+		CD1ECB0B1FEB8A6E002B26EF /* JYLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLockView.m; sourceTree = "<group>"; };
+		CD1ECB0C1FEB8A6E002B26EF /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
+		CD1ECB0D1FEB8A6E002B26EF /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
+		CD1ECB171FEB9B34002B26EF /* CMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMColor.h; sourceTree = "<group>"; };
+		CD1ECB181FEB9B34002B26EF /* CMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMColor.m; sourceTree = "<group>"; };
+		CD1ECB1B1FEB9D9A002B26EF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CD1ECB1C1FEBA445002B26EF /* JHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHViewController.h; sourceTree = "<group>"; };
+		CD1ECB1D1FEBA445002B26EF /* JHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1ECAE21FEB896E002B26EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1ECADC1FEB896E002B26EF = {
+			isa = PBXGroup;
+			children = (
+				CD1ECB161FEB9B34002B26EF /* CMColor */,
+				CD1ECAFE1FEB8A6E002B26EF /* JYLockTool */,
+				CD1ECAE71FEB896E002B26EF /* JHLockDemo */,
+				CD1ECAE61FEB896E002B26EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1ECAE61FEB896E002B26EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1ECAE51FEB896E002B26EF /* JHLockDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1ECAE71FEB896E002B26EF /* JHLockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD1ECB1C1FEBA445002B26EF /* JHViewController.h */,
+				CD1ECB1D1FEBA445002B26EF /* JHViewController.m */,
+				CD1ECB031FEB8A6E002B26EF /* JYGestureController.h */,
+				CD1ECB041FEB8A6E002B26EF /* JYGestureController.m */,
+				CD1ECAE81FEB896E002B26EF /* AppDelegate.h */,
+				CD1ECAE91FEB896E002B26EF /* AppDelegate.m */,
+				CD1ECAEE1FEB896E002B26EF /* Main.storyboard */,
+				CD1ECAF11FEB896E002B26EF /* Assets.xcassets */,
+				CD1ECAF31FEB896E002B26EF /* LaunchScreen.storyboard */,
+				CD1ECAF61FEB896E002B26EF /* Info.plist */,
+				CD1ECAF71FEB896E002B26EF /* main.m */,
+				CD1ECB1B1FEB9D9A002B26EF /* PrefixHeader.pch */,
+			);
+			path = JHLockDemo;
+			sourceTree = "<group>";
+		};
+		CD1ECAFE1FEB8A6E002B26EF /* JYLockTool */ = {
+			isa = PBXGroup;
+			children = (
+				CD1ECAFF1FEB8A6E002B26EF /* CoreArchive.h */,
+				CD1ECB001FEB8A6E002B26EF /* CoreArchive.m */,
+				CD1ECB011FEB8A6E002B26EF /* CoreLockConst.h */,
+				CD1ECB021FEB8A6E002B26EF /* CoreLockConst.m */,
+				CD1ECB051FEB8A6E002B26EF /* JYGestureView.h */,
+				CD1ECB061FEB8A6E002B26EF /* JYGestureView.m */,
+				CD1ECB071FEB8A6E002B26EF /* JYGestureView.xib */,
+				CD1ECB081FEB8A6E002B26EF /* JYLockButton.h */,
+				CD1ECB091FEB8A6E002B26EF /* JYLockButton.m */,
+				CD1ECB0A1FEB8A6E002B26EF /* JYLockView.h */,
+				CD1ECB0B1FEB8A6E002B26EF /* JYLockView.m */,
+				CD1ECB0C1FEB8A6E002B26EF /* NSString+File.h */,
+				CD1ECB0D1FEB8A6E002B26EF /* NSString+File.m */,
+			);
+			path = JYLockTool;
+			sourceTree = "<group>";
+		};
+		CD1ECB161FEB9B34002B26EF /* CMColor */ = {
+			isa = PBXGroup;
+			children = (
+				CD1ECB171FEB9B34002B26EF /* CMColor.h */,
+				CD1ECB181FEB9B34002B26EF /* CMColor.m */,
+			);
+			path = CMColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1ECAE41FEB896E002B26EF /* JHLockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1ECAFB1FEB896E002B26EF /* Build configuration list for PBXNativeTarget "JHLockDemo" */;
+			buildPhases = (
+				CD1ECAE11FEB896E002B26EF /* Sources */,
+				CD1ECAE21FEB896E002B26EF /* Frameworks */,
+				CD1ECAE31FEB896E002B26EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHLockDemo;
+			productName = JHLockDemo;
+			productReference = CD1ECAE51FEB896E002B26EF /* JHLockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1ECADD1FEB896E002B26EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jiang Hao";
+				TargetAttributes = {
+					CD1ECAE41FEB896E002B26EF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD1ECAE01FEB896E002B26EF /* Build configuration list for PBXProject "JHLockDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1ECADC1FEB896E002B26EF;
+			productRefGroup = CD1ECAE61FEB896E002B26EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1ECAE41FEB896E002B26EF /* JHLockDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1ECAE31FEB896E002B26EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1ECAF51FEB896E002B26EF /* LaunchScreen.storyboard in Resources */,
+				CD1ECAF21FEB896E002B26EF /* Assets.xcassets in Resources */,
+				CD1ECAF01FEB896E002B26EF /* Main.storyboard in Resources */,
+				CD1ECB121FEB8A6E002B26EF /* JYGestureView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1ECAE11FEB896E002B26EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1ECB131FEB8A6E002B26EF /* JYLockButton.m in Sources */,
+				CD1ECAF81FEB896E002B26EF /* main.m in Sources */,
+				CD1ECB141FEB8A6E002B26EF /* JYLockView.m in Sources */,
+				CD1ECB101FEB8A6E002B26EF /* JYGestureController.m in Sources */,
+				CD1ECAEA1FEB896E002B26EF /* AppDelegate.m in Sources */,
+				CD1ECB111FEB8A6E002B26EF /* JYGestureView.m in Sources */,
+				CD1ECB1E1FEBA445002B26EF /* JHViewController.m in Sources */,
+				CD1ECB151FEB8A6E002B26EF /* NSString+File.m in Sources */,
+				CD1ECB191FEB9B34002B26EF /* CMColor.m in Sources */,
+				CD1ECB0E1FEB8A6E002B26EF /* CoreArchive.m in Sources */,
+				CD1ECB0F1FEB8A6E002B26EF /* CoreLockConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD1ECAEE1FEB896E002B26EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1ECAEF1FEB896E002B26EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1ECAF31FEB896E002B26EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1ECAF41FEB896E002B26EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1ECAF91FEB896E002B26EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD1ECAFA1FEB896E002B26EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1ECAFC1FEB896E002B26EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/janghao/Desktop/JHLockDemo/JHLockDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = JHLockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = person.com.JHLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD1ECAFD1FEB896E002B26EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/janghao/Desktop/JHLockDemo/JHLockDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = JHLockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = person.com.JHLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1ECAE01FEB896E002B26EF /* Build configuration list for PBXProject "JHLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1ECAF91FEB896E002B26EF /* Debug */,
+				CD1ECAFA1FEB896E002B26EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1ECAFB1FEB896E002B26EF /* Build configuration list for PBXNativeTarget "JHLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1ECAFC1FEB896E002B26EF /* Debug */,
+				CD1ECAFD1FEB896E002B26EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1ECADD1FEB896E002B26EF /* Project object */;
+}
